@@ -124,7 +124,7 @@ function App() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <Github size={17} /> GitHub{" "}
+                <Github size={17} /> GitHub
               </a>
             </div>
           </div>
