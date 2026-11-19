@@ -120,12 +120,11 @@ function App() {
                 <Linkedin size={17} /> LinkedIn
               </a>
               <a
-                href="https://github.com/"
+                href="https://github.com/VINITHJR"
                 target="_blank"
                 rel="noreferrer"
               >
                 <Github size={17} /> GitHub{" "}
-                <span className="muted">(add your profile URL)</span>
               </a>
             </div>
           </div>
