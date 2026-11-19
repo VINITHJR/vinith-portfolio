@@ -161,44 +161,57 @@ function App() {
           </div>
         </section>
 
-        <section className="section wrap" id="about">
-          <div className="section-label">01 / ABOUT ME</div>
-          <div className="about-grid">
-            <h2>
-              Curious by nature.
-              <br />
-              <span>Practical by design.</span>
-            </h2>
-            <div className="about-copy">
-              <p>
-                I’m a 2026 engineering graduate in Artificial Intelligence from
-                Vemana Institute of Technology, Bengaluru. I’m interested in
-                machine learning, data science, generative AI and building
-                applications that solve real problems.
-              </p>
-              <p>
-                I learn by building: experimenting with data, developing APIs
-                and connecting models to usable interfaces. I’m currently
-                looking for opportunities where I can contribute, learn from
-                experienced teams and grow as an engineer.
-              </p>
-              <div className="quick-facts">
-                <div>
-                  <strong>2026</strong>
-                  <span>Graduate</span>
-                </div>
-                <div>
-                  <strong>AI / ML</strong>
-                  <span>Focus area</span>
-                </div>
-                <div>
-                  <strong>Bengaluru</strong>
-                  <span>India</span>
-                </div>
+        
+        <section className="about-section" id="about">
+          <div className="about-layout">
+            {/* Left column: section label, tagline and profile photo */}
+            <div className="about-left">
+              <div className="about-heading">
+                <p className="section-label">01 / ABOUT ME</p>
+                <h2 className="about-tagline">
+                  Curious by nature.
+                  <span>Practical by design.</span>
+                </h2>
               </div>
+
+              <div className="about-image">
+                <img
+                  src="/image/VINITH.png"
+                  alt="VINITH J R - Profile Photo"
+                />
+              </div>
+            </div>
+
+            {/* Right column: introduction */}
+            <div className="about-content">
+              <p className="section-label">GET TO KNOW ME</p>
+
+              <h2>
+                About <span>Me</span>
+              </h2>
+
+              <p>
+                Hello! I'm VINITH J R, an Artificial Intelligence
+                and Machine Learning graduate from Bengaluru, India.
+              </p>
+
+              <p>
+                I'm passionate about Artificial Intelligence,
+                Machine Learning, Data Science, and Generative AI.
+                I enjoy building practical applications that solve
+                real-world problems using technology.
+              </p>
+
+              <p>
+                My technical interests include Python, Machine Learning,
+                Deep Learning, NLP, RAG, and Full-Stack Development.
+                I'm currently looking for opportunities to begin my
+                career in the IT industry.
+              </p>
             </div>
           </div>
         </section>
+
 
         <section className="section skills-section" id="skills">
           <div className="wrap">
