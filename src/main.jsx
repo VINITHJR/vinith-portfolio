@@ -43,15 +43,23 @@ const projects = [
     stack: ["React", "TypeScript", "Vite", "MindAR", "Three.js"],
     status: "In development",
   },
+  
   {
     number: "04",
-    type: "MACHINE LEARNING",
-    title: "Iris Flower Classification",
+    type: "ENVIRONMENTAL DATA • MAPPING",
+    title: "Environmental Intelligence & Weather Map",
     description:
-      "A machine-learning classification project using the Iris dataset, model evaluation and a curated image-data exploration.",
-    stack: ["Python", "Scikit-learn", "Pandas", "Matplotlib", "Google Colab"],
-    status: "Completed coursework",
+      "An interactive environmental monitoring platform that integrates weather and air-quality data with earthquake and severe-weather information. It provides a location-based map to explore environmental conditions and events.",
+    stack: [
+      "Python",
+      "WeatherAPI",
+      "API Integration",
+      "Data Processing",
+      "Interactive Mapping"
+    ],
+    status: "Personal project",
   },
+
 ];
 
 function App() {
