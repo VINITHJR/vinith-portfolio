@@ -314,7 +314,7 @@ function App() {
                   <p>
                     Vemana Institute of Technology, Koramangala, Bengaluru
                   </p>
-                  <P>
+                  <p>
                     CGPA: 7.7/10
                   </p>
                 </div>
