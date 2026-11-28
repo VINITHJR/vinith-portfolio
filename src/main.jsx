@@ -313,6 +313,7 @@ function App() {
                   <h3>B.E. — Artificial Intelligence</h3>
                   <p>
                     Vemana Institute of Technology, Koramangala, Bengaluru
+                    CGPA: 7.7/10
                   </p>
                 </div>
               </div>
